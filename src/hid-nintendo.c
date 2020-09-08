@@ -37,6 +37,9 @@
 #include <linux/power_supply.h>
 #include <linux/spinlock.h>
 
+/* The following defines are for backporting to kernel 4.9 */
+#define LED_ON	1
+
 /*
  * Reference the url below for the following HID report defines:
  * https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering
